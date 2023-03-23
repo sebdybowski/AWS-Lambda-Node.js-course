@@ -1,104 +1,46 @@
 {
-  "name": "reveal.js",
-  "version": "4.4.0",
-  "description": "The HTML Presentation Framework",
-  "homepage": "https://revealjs.com",
-  "subdomain": "revealjs",
-  "main": "dist/reveal.js",
-  "module": "dist/reveal.esm.js",
-  "license": "MIT",
+  "name": "aws-lambda-node-js-course",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "gulp test",
-    "start": "gulp serve",
-    "build": "gulp build"
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "typecheck": "tsc"
   },
-  "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "https://hakim.se"
+  "dependencies": {
+    "@docusaurus/core": "2.3.1",
+    "@docusaurus/preset-classic": "2.3.1",
+    "@mdx-js/react": "^1.6.22",
+    "clsx": "^1.2.1",
+    "prism-react-renderer": "^1.3.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "2.3.1",
+    "@tsconfig/docusaurus": "^1.0.5",
+    "typescript": "^4.7.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "engines": {
-    "node": ">=10.0.0"
-  },
-  "keywords": [
-    "reveal",
-    "slides",
-    "presentation"
-  ],
-  "devDependencies": {
-    "@babel/core": "^7.14.3",
-    "@babel/eslint-parser": "^7.14.3",
-    "@babel/preset-env": "^7.14.2",
-    "@rollup/plugin-babel": "^5.3.0",
-    "@rollup/plugin-commonjs": "^19.0.0",
-    "@rollup/plugin-node-resolve": "^13.0.0",
-    "babel-plugin-transform-html-import-to-string": "0.0.1",
-    "colors": "^1.4.0",
-    "core-js": "^3.12.1",
-    "fitty": "^2.3.0",
-    "glob": "^7.1.7",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^8.0.0",
-    "gulp-clean-css": "^4.2.0",
-    "gulp-connect": "^5.7.0",
-    "gulp-eslint": "^6.0.0",
-    "gulp-header": "^2.0.9",
-    "gulp-tap": "^2.0.0",
-    "gulp-zip": "^4.2.0",
-    "highlight.js": "^11.7.0",
-    "marked": "^4.0.12",
-    "node-qunit-puppeteer": "^2.1.2",
-    "qunit": "^2.19.3",
-    "rollup": "^2.48.0",
-    "rollup-plugin-terser": "^7.0.2",
-    "sass": "^1.39.2",
-    "yargs": "^15.1.0"
-  },
-  "overrides": {
-    "chokidar": "3.5.3",
-    "glob-parent": "6.0.2"
-  },
-  "browserslist": "> 2%, not dead",
-  "eslintConfig": {
-    "env": {
-      "browser": true,
-      "es6": true
-    },
-    "parser": "@babel/eslint-parser",
-    "parserOptions": {
-      "sourceType": "module",
-      "allowImportExportEverywhere": true,
-      "requireConfigFile": false
-    },
-    "globals": {
-      "module": false,
-      "console": false,
-      "unescape": false,
-      "define": false,
-      "exports": false
-    },
-    "rules": {
-      "curly": 0,
-      "eqeqeq": 2,
-      "wrap-iife": [
-        2,
-        "any"
-      ],
-      "no-use-before-define": [
-        2,
-        {
-          "functions": false
-        }
-      ],
-      "new-cap": 2,
-      "no-caller": 2,
-      "dot-notation": 0,
-      "no-eq-null": 2,
-      "no-unused-expressions": 0
-    }
+    "node": ">=16.14"
   }
 }
