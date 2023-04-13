@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Backend w chmurze bez potu i łez',
-  tagline: '(AWS Apmlify, AWS Lambda + Node.js)',
+  tagline: '(AWS Amplify, AWS Lambda + Node.js)',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -64,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'AWS Apmlify / AWS Lambda / Node.js',
+        title: 'AWS Amplify / AWS Lambda / Node.js',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',

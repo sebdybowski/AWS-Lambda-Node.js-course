@@ -36,7 +36,7 @@ Successfully added resource awsprotofn locally.
 
 ## Kod lambdy w Node.js
 - Lokalizacja w projekcie
-`apmlify/backend/function/{twoja-nazwa}/src/index.js`
+`amplify/backend/function/{twoja-nazwa}/src/index.js`
 
 - Podstawowa implementacja
 ```js
@@ -85,7 +85,7 @@ API Gateway to rodzaj reverse proxy. Jego rolą jest odizolowanie mikroserwisów
 :::
 
 :::info
-Logi mozemy znaleźć w [AWS Lamda](https://eu-central-1.console.aws.amazon.com/lambda/)
+Logi mozemy znaleźć w [AWS Lambda](https://eu-central-1.console.aws.amazon.com/lambda/)
 :::
 
 ## Sprawdzamy endpoint w przeglądarce:
