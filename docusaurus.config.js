@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Backend w chmurze bez potu i łez',
-  tagline: '(AWS Amplify, AWS Lambda + Node.js)',
+  tagline: 'AWS Amplify',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -64,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'AWS Amplify / AWS Lambda / Node.js',
+        title: 'AWS Amplify',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -82,7 +82,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/sebdybowski/AWS-Lambda-Node.js-course',
+            href: 'https://github.com/sebdybowski/aws-amplify-course',
             label: 'GitHub',
             position: 'right',
           },
@@ -109,12 +109,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/sebdybowski/AWS-Lambda-Node.js-course',
+                href: 'https://github.com/sebdybowski/aws-amplify-course',
               },
             ],
           },
         ],
-        copyright: `${new Date().getFullYear()} Sebastian Dybowski. Strona zbudowana z użyciem Docosaurus'a.`,
+        copyright: `${new Date().getFullYear()} Sebastian Dybowski. Strona zbudowana z użyciem Docosaurus'a i font-awesome.`,
       },
       prism: {
         theme: lightCodeTheme,
