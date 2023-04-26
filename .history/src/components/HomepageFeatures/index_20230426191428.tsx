@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/js.svg').default,
     description: (
       <>
-        💔 Pokochaj albo rzuć... 
+        Pokochaj albo rzuć... 💔
       </>
     ),
   },

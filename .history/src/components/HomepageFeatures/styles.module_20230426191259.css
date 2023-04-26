@@ -10,6 +10,6 @@
   width: 200px;
 }
 
-[data-theme='dark'] .featureSvg {
-  fill: #fff;
+[data-theme='dark'].featureSvg > img {
+    filter: invert(1);
 }

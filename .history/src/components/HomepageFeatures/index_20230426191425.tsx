@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/react.svg').default,
     description: (
       <>
-        🌐 Najpopularniejszy framework Front-end. 
+        Najpopularniejszy framework Front-end. 🌐
       </>
     ),
   },
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/js.svg').default,
     description: (
       <>
-        💔 Pokochaj albo rzuć... 
+        Pokochaj albo rzuć... 💔
       </>
     ),
   },

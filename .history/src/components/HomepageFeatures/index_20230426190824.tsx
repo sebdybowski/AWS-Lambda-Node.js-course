@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/aws.svg').default,
     description: (
       <>
-        🧰 Skrzynka z narzędziami, z którą stworzysz backend w parę chwil!
+        Skrzynka z narzędziami, z którą stworzysz backend w parę chwil!
       </>
     ),
   },
@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/react.svg').default,
     description: (
       <>
-        🌐 Najpopularniejszy framework Front-end. 
+        Najpopularniejszy framework Front-end.
       </>
     ),
   },
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/js.svg').default,
     description: (
       <>
-        💔 Pokochaj albo rzuć... 
+        
       </>
     ),
   },
