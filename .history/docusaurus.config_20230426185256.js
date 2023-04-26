@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Backend w chmurze bez potu i łez',
-  tagline: 'AWS Amplify',
+  tagline: '(AWS Amplify',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

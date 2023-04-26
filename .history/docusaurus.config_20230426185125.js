@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Backend w chmurze bez potu i łez',
-  tagline: 'AWS Amplify',
+  tagline: '(AWS Amplify, AWS Lambda + Node.js)',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -109,7 +109,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/sebdybowski/aws-amplify-course',
+                href: 'https://github.com/sebdybowski/AWS-Lambda-Node.js-course',
               },
             ],
           },
