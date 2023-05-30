@@ -5,7 +5,7 @@ sidebar_position: 6
 # Zalety i wady
 ## ✅ Zalety
 - Szybkość developmentu
-- Skalowanie *out-of-the-box*
+- Skalowanie *out-of-the-box* ([AWS Autoscaling](https://aws.amazon.com/autoscaling/))
 - Usługi AWS pokrywają niemal każde zastosowanie i integrują się ze sobą świetnie
 - Integracje ze wszystkimi topowymi językami i frameworkami
 - Brak zmartwień o fizyczną infrastrukturę serwera
@@ -13,6 +13,6 @@ sidebar_position: 6
 
 ## ❌ Wady
 - Koszty i niezbyt przejrzysty proces ich kalkulacji
-- Uzależnienie od infrastruktury AWS
+- Uzależnienie od infrastruktury AWS - wyprowadzka może być kosztowna
 - Nasze dane są powierzane Amazonowi, nie mamy do nich 100% wyłączności
 - Wsparcie jest płatne

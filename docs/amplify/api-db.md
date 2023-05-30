@@ -96,7 +96,7 @@ query listTodos {
 
 ## Implementacja API na Front-endzie
 ```bash
-  npm install @picocss/pico`
+  npm install @picocss/pico
 ```
 - `src/index.js`
 ```jsx
