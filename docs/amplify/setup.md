@@ -3,6 +3,15 @@ sidebar_position: 2
 ---
 
 # Tworzymy front-end
+## Instalacja AWS Amplify
+```bash
+curl -sL https://aws-amplify.github.io/amplify-cli/install | bash && $SHELL
+
+# or
+
+npm install -g @aws-amplify/cli
+```
+
 ## Konfiguracja AWS amplify
 ```bash
 amplify configure
