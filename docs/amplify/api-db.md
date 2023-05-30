@@ -66,7 +66,7 @@ amplify status
 amplify console api
 ```
 
-### Testowanie API
+<!-- ### Testowanie API
 ```bash
 amplify mock api
 ```
@@ -81,7 +81,7 @@ mutation createTodo {
     name
     description
   }
-}
+} -->
 
 query listTodos {
   listTodos {
