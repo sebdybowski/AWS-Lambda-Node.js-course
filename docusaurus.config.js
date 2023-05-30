@@ -76,6 +76,21 @@ const config = {
             position: 'left',
             label: 'Kurs',
           },
+          {
+            href: 'https://us-east-1.console.aws.amazon.com/billing/home?region=eu-central-1#/freetier',
+            label: 'AWS Limity',
+            position: 'left',
+          },
+          {
+            href: 'https://us-east-1.console.aws.amazon.com/billing/home?region=eu-central-1#/budgets',
+            label: 'AWS Budżety',
+            position: 'left',
+          },
+          {
+            href: 'https://eu-central-1.console.aws.amazon.com/cloudformation',
+            label: 'AWS Cloud Formation',
+            position: 'left',
+          },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'localeDropdown',
