@@ -223,3 +223,8 @@ const App = () => {
 
 export default App
 ```
+
+## Odpalamy lokalny UI
+```bash
+npm run start
+```
