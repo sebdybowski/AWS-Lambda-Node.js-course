@@ -62,11 +62,11 @@ amplify status
 └──────────┴────────────────┴───────────┴───────────────────┘
 ```
 
-```bash
+<!-- ```bash
 amplify console api
 ```
 
-<!-- ### Testowanie API
+### Testowanie API
 ```bash
 amplify mock api
 ```
@@ -81,7 +81,7 @@ mutation createTodo {
     name
     description
   }
-} -->
+}
 
 query listTodos {
   listTodos {
@@ -92,7 +92,7 @@ query listTodos {
     }
   }
 }
-```
+``` -->
 
 ## Implementacja API na Front-endzie
 ```bash
