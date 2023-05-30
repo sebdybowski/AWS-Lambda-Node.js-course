@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Prelekcja 
-## Backend w chmurze bez potu <br/> i łez z AWS Amplify 🚀
+# Prelekcja
+<img src="/img/devoxx-title.png"/>
+<a href="/img/devoxx-title.png" target="_blank">slajd</a>
 
-prowadzi: *Sebastian Dybowski*
